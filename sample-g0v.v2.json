@@ -1,0 +1,34 @@
+{
+  "repo" :"",
+  "author" : "",
+  "status" : "Beta/Planning/Released/Archived",
+  "name": {
+    "en": "g0vsite",
+    "zh": "零時政府官網"
+  },
+  "description": {
+    "en": "g0v.tw site",
+    "zh": "g0v 官網",
+  }
+  "homepage" : "http://g0v.tw/",
+  "thumbnail" : "",
+  "document": "http://hack.g0v.tw/meta/YC0Ig73WEMJ",
+  "repository": "",
+  "licenses": ["CC-BY"],
+  "keywords": {
+    "en": [
+      "community",
+      "g0v.tw",
+      "communication"
+    ]
+  },
+  "audience": {
+    "en":[
+      "public"
+    ]
+  },
+  "products" :[],
+  "partOf": "",
+  "contributors" :[],
+  "needs" : []
+}
