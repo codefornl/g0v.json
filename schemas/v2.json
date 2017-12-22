@@ -1,0 +1,202 @@
+{
+  "id": "https://raw.githubusercontent.com/g0v/g0v.json/master/schemas/v2.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "repo",
+    "author"
+  ],
+  "properties": {
+    "repo": {
+      "title": {
+        "zh": "專案識別碼",
+        "en": "Identification Number",
+        "nl": "Identificatienummer"
+      },
+      "description": {
+        "en": "Repo Identity (owner/name)"
+      },
+      "type": "string",
+      "minLength": 1,
+      "required": true
+    },
+    "author": {
+      "title": {
+        "zh": "專案作者",
+        "en": "Author",
+        "nl": "Auteur"
+      },
+      "description": {
+        "en": "Project author"
+      },
+      "type": "string",
+      "minLength": 1,
+      "required": true
+    },
+    "status": {
+      "title": {
+        "zh": "專案狀態",
+        "en": "Status"
+      },
+      "description": {
+        "en": "Project status"
+      },
+      "type": "string",
+      "enum": {
+        "en": [
+          "Planning",
+          "Beta",
+          "Released",
+          "Archived"
+        ]
+      },
+      "required": false
+    },
+    "name": {
+      "title": {
+        "zh": "專案名稱",
+        "en": "Name"
+      },
+      "description": {
+        "en": "Project name"
+      },
+      "type": "string",
+      "minLength": 1,
+      "required": false
+    },
+    "description": {
+      "title": {
+        "zh": "專案描述",
+        "en": "Description",
+        "nl": "Omschrijving"
+      },
+      "description": {
+        "en": "Project description"
+      },
+      "type": "string",
+      "required": false
+    },
+    "homepage": {
+      "title": {
+        "zh": "網頁",
+        "nl": "Webpagina",
+        "en": "Webpage"
+      },
+      "description": {
+        "en": "Homepage url"
+      },
+      "type": "string",
+      "required": false
+    },
+    "thumbnail": {
+      "title": {
+        "zh": "縮圖",
+        "en": "Thumbnail"
+      },
+      "description": {
+        "en": "Thumbnail"
+      },
+      "type": "string",
+      "required": false
+    },
+    "document": {
+      "title": {
+        "zh": "文件",
+        "en": "Document"
+      },
+      "description": {
+        "en": "Document"
+      },
+      "type": "string",
+      "required": false
+    },
+    "repository": {
+      "title": {
+        "zh": "Repo 工作資料區",
+        "en": "Repository"
+      },
+      "description": {
+        "en": "Repository url"
+      },
+      "type": "string",
+      "required": false
+    },
+    "licenses": {
+      "title": {
+        "zh": "專案授權",
+        "en": "Licenses"
+      },
+      "description": {
+        "en": "licenses"
+      },
+      "type": "array",
+      "required": false
+    },
+    "keywords": {
+      "title": {
+        "zh": "專案關鍵字",
+        "en": "Keywords"
+      },
+      "description": {
+        "en": "Keywords"
+      },
+      "type": "array",
+      "required": false
+    },
+    "audience": {
+      "title": {
+        "zh": "目標受眾",
+        "en": "Audience",
+        "nl": "Doelgroep"
+      },
+      "description": {
+        "en": "Target Audience"
+      },
+      "type": "array",
+      "required": false
+    },
+    "products": {
+      "title": {
+        "zh": "產出網址",
+        "en": "Product Webpage"
+      },
+      "description": {
+        "en": "Production URLs"
+      },
+      "type": "array",
+      "required": false
+    },
+    "partOf": {
+      "title": {
+        "en": "Part Of"
+      },
+      "description": {
+        "en": "Parent project"
+      },
+      "type": "string",
+      "required": false
+    },
+    "contributors": {
+      "title": {
+        "zh": "貢獻者",
+        "en": "Contributors"
+      },
+      "description": {
+        "en": "Contributors"
+      },
+      "type": "array",
+      "required": false
+    },
+    "needs": {
+      "title": {
+        "zh": "徵求支援",
+        "en": "Needs"
+      },
+      "description": {
+        "en": "Needs"
+      },
+      "type": "array",
+      "required": false
+    }
+  }
+}
