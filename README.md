@@ -10,6 +10,11 @@ import g0vJSON from "g0v.json";
 const schema = new g0vJSON("v1").schema();
 
 console.log(schema.properties);
+
+const schema2 = new g0vJSON("v2").schema();
+
+console.log(schema2.properties);
+
 ```
 
 You can kick off a new g0v.json file from [this sample g0v.json](https://github.com/g0v/g0v.json/blob/master/sample-g0v.json)
